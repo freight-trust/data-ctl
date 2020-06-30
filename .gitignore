@@ -1,0 +1,7 @@
+node_modules
+*.tar
+*.zip
+*.tar.gz
+*.rar
+*.pem
+*.cert

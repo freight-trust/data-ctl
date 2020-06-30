@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/freight-trust/index-contract.git",
   "author": "sam@freighttrust.com <sam@freighttrust.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.1"
+  }
 }
