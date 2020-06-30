@@ -1,0 +1,8 @@
+{
+  "name": "index-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/freight-trust/index-contract.git",
+  "author": "sam@freighttrust.com <sam@freighttrust.com>",
+  "license": "MIT"
+}
