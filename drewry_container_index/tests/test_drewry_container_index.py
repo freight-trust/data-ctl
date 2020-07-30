@@ -30,10 +30,10 @@ class TestDrewry_container_index(unittest.TestCase):
 
         assert result.exit_code == 0
 
-        assert 'drewry_container_index.cli.main' in result.output
+        assert "drewry_container_index.cli.main" in result.output
 
-        help_result = runner.invoke(cli.main, ['--help'])
+        help_result = runner.invoke(cli.main, ["--help"])
 
         assert help_result.exit_code == 0
 
-        assert '--help  Show this message and exit.' in help_result.output
+        assert "--help  Show this message and exit." in help_result.output

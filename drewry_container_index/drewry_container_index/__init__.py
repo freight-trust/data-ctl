@@ -2,6 +2,6 @@
 
 __author__ = """FreightTrust and Clearing Corporation"""
 
-__email__ = 'admin@freighttrust.com'
+__email__ = "admin@freighttrust.com"
 
-__version__ = '0.1.0'
+__version__ = "0.1.0"
