@@ -8,6 +8,7 @@ from drewry_container_index import drewry_container_index
 
 from drewry_container_index import cli
 
+
 class TestDrewry_container_index(unittest.TestCase):
     """Tests for `drewry_container_index` package."""
 
