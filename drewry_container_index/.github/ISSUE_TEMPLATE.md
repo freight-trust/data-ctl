@@ -1,6 +1,6 @@
-* Container Freight Contract Index version:
-* Python version:
-* Operating System:
+-   Container Freight Contract Index version:
+-   Python version:
+-   Operating System:
 
 ### Description
 
