@@ -1,3 +1,5 @@
+package-lock.json
+yar.lock
 node_modules
 *.tar
 *.zip
