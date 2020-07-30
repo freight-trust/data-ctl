@@ -34,6 +34,8 @@
     "chain"
   ],
   "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-google": "^0.14.0",
     "prettier": "^2.0.5"
   }
 }
