@@ -1,11 +1,19 @@
 """Tests for `drewry_container_index` package."""
+<<<<<<< HEAD
+=======
+
+>>>>>>> e0e380b541ecaafaea5e95458027248f82d49aef
 import unittest
 
 from click.testing import CliRunner
 
+<<<<<<< HEAD
 from drewry_container_index import cli
+=======
+>>>>>>> e0e380b541ecaafaea5e95458027248f82d49aef
 from drewry_container_index import drewry_container_index
 
+from drewry_container_index import cli
 
 class TestDrewry_container_index(unittest.TestCase):
     """Tests for `drewry_container_index` package."""
@@ -28,6 +36,7 @@ class TestDrewry_container_index(unittest.TestCase):
 
         assert result.exit_code == 0
 
+<<<<<<< HEAD
         assert "drewry_container_index.cli.main" in result.output
 
         help_result = runner.invoke(cli.main, ["--help"])
@@ -35,3 +44,12 @@ class TestDrewry_container_index(unittest.TestCase):
         assert help_result.exit_code == 0
 
         assert "--help  Show this message and exit." in help_result.output
+=======
+        assert 'drewry_container_index.cli.main' in result.output
+
+        help_result = runner.invoke(cli.main, ['--help'])
+
+        assert help_result.exit_code == 0
+
+        assert '--help  Show this message and exit.' in help_result.output
+>>>>>>> e0e380b541ecaafaea5e95458027248f82d49aef
