@@ -28,9 +28,11 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
     ],
-    description="Global Container Freight Index Pricing based on Drewry.co.uk Pricing Information",
+    description=
+    "Global Container Freight Index Pricing based on Drewry.co.uk Pricing Information",
     entry_points={
-        "console_scripts": ["drewry_container_index=drewry_container_index.cli:main"]
+        "console_scripts":
+        ["drewry_container_index=drewry_container_index.cli:main"]
     },
     install_requires=requirements,
     long_description=readme + "\n\n" + history,
@@ -38,8 +40,7 @@ setup(
     keywords="drewry_container_index",
     name="drewry_container_index",
     packages=find_packages(
-        include=["drewry_container_index", "drewry_container_index.*"]
-    ),
+        include=["drewry_container_index", "drewry_container_index.*"]),
     setup_requires=setup_requirements,
     test_suite="tests",
     tests_require=test_requirements,

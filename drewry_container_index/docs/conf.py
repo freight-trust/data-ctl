@@ -5,7 +5,6 @@ import drewry_container_index
 
 sys.path.insert(0, os.path.abspath(".."))
 
-
 extensions = ["sphinx.ext.autodoc", "sphinx.ext.viewcode"]
 
 templates_path = ["_templates"]
@@ -40,34 +39,28 @@ htmlhelp_basename = "drewry_container_indexdoc"
 
 latex_elements = {}
 
-latex_documents = [
-    (
-        master_doc,
-        "drewry_container_index.tex",
-        "Container Freight Contract Index Documentation",
-        "FreightTrust and Clearing Corporation",
-        "manual",
-    )
-]
+latex_documents = [(
+    master_doc,
+    "drewry_container_index.tex",
+    "Container Freight Contract Index Documentation",
+    "FreightTrust and Clearing Corporation",
+    "manual",
+)]
 
-man_pages = [
-    (
-        master_doc,
-        "drewry_container_index",
-        "Container Freight Contract Index Documentation",
-        [author],
-        1,
-    )
-]
+man_pages = [(
+    master_doc,
+    "drewry_container_index",
+    "Container Freight Contract Index Documentation",
+    [author],
+    1,
+)]
 
-texinfo_documents = [
-    (
-        master_doc,
-        "drewry_container_index",
-        "Container Freight Contract Index Documentation",
-        author,
-        "drewry_container_index",
-        "One line description of project.",
-        "Miscellaneous",
-    )
-]
+texinfo_documents = [(
+    master_doc,
+    "drewry_container_index",
+    "Container Freight Contract Index Documentation",
+    author,
+    "drewry_container_index",
+    "One line description of project.",
+    "Miscellaneous",
+)]
