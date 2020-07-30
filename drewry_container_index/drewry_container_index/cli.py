@@ -1,5 +1,4 @@
 """Console script for drewry_container_index."""
-
 import sys
 
 import click

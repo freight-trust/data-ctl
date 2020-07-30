@@ -1,6 +1,6 @@
 """The setup script."""
-
-from setuptools import find_packages, setup
+from setuptools import find_packages
+from setuptools import setup
 
 with open("README.rst") as readme_file:
     readme = readme_file.read()

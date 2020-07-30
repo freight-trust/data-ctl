@@ -1,9 +1,10 @@
 """Tests for `drewry_container_index` package."""
-
 import unittest
 
 from click.testing import CliRunner
-from drewry_container_index import cli, drewry_container_index
+
+from drewry_container_index import cli
+from drewry_container_index import drewry_container_index
 
 
 class TestDrewry_container_index(unittest.TestCase):
