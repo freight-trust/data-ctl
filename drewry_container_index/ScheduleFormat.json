@@ -1,0 +1,32 @@
+{
+  "vesselInfo":{
+     "source":"ONE",
+     "SCAC":"ONEY",
+     "vesselCode":"9457660",
+     "vesselName":"WAN HAI 517",
+     "voyageNumber":"CMSA17T044E"
+  },
+  "vesselStops":[
+     {
+        "portName":"Port KLANG",
+        "unlocCode":"MYPKG",
+        "estimatedArrival":"4/15/2019 9:14:00 AM",
+        "estimatedDeparture":"4/16/2019 3:30:00 AM",
+        "sequenceNumber":1
+     },
+     {
+        "portName":"SINGAPORE",
+        "unlocCode":"SGSIN",
+        "estimatedArrival":"4/16/2019 3:15:00 PM",
+        "estimatedDeparture":"4/17/2019 9:45:00 AM",
+        "sequenceNumber":2
+     },
+     {
+        "portName":"SHEKOU, GUANGDONG",
+        "unlocCode":"CNSHK",
+        "estimatedArrival":"4/21/2019 3:55:00 AM",
+        "estimatedDeparture":"4/21/2019 7:50:00 PM",
+        "sequenceNumber":3
+     }
+  ]
+}
