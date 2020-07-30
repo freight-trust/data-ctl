@@ -1,7 +1,7 @@
-import drewry_container_index
 import os
-
 import sys
+
+import drewry_container_index
 
 sys.path.insert(0, os.path.abspath(".."))
 
